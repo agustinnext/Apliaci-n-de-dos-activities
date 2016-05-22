@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.next.capturardatos.MainActivity"
+    android:background="@color/colorBackground">
+
+    <EditText
+        android:id="@+id/ingresarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginTop="@dimen/margin_top"
+        />
+
+
+
+
+
+    <EditText
+        android:id="@+id/ingresarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginTop="300dp"
+        />
+
+    <EditText
+        android:id="@+id/ingresarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:layout_below="@id/ingresarTelefono"
+
+        />
+
+
+    <EditText
+        android:id="@+id/ingresarDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de contacto"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_below="@id/ingresarEmail"
+        />
+
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorButtons"
+
+        />
+
+
+
+
+</RelativeLayout>

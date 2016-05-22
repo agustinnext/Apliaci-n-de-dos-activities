@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CapturarDatos</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="boton">Siguiente</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="tvDescripcion">Descripción contacto:</string>
+
+    
+</resources>
